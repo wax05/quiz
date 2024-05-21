@@ -1,0 +1,24 @@
+@import './Mixins/fontMixin.scss';
+@font-face {
+    font-family: 'Freesentation';
+    src: url('../../../font/Freesentation-4Regular.ttf');
+}
+$Middle: 0 auto;
+
+body {
+    display: block;
+    height: auto;
+}
+.container {
+    @include thin-font;
+    margin: $Middle;
+    padding: 20%;
+    text-align: center;
+    .title {
+        margin-bottom: 3%;
+    }
+    div {
+        left: auto;
+        right: auto;
+    }
+}
