@@ -1,0 +1,225 @@
+{
+    "title": "Computer Science Quiz",
+    "quizs": [
+        {
+            "quizTitle": "What does 'HTML' stand for?",
+            "quizScore": 5,
+            "quizChoices": [
+                {
+                    "quizDescription": "HyperText Markup Language",
+                    "isCorrect": true
+                },
+                {
+                    "quizDescription": "HyperText Markdown Language",
+                    "isCorrect": false
+                },
+                {
+                    "quizDescription": "Hyperlink and Text Markup Language",
+                    "isCorrect": false
+                },
+                {
+                    "quizDescription": "Home Tool Markup Language",
+                    "isCorrect": false
+                }
+            ]
+        },
+        {
+            "quizTitle": "Which data structure uses LIFO (Last In, First Out)?",
+            "quizScore": 5,
+            "quizChoices": [
+                {
+                    "quizDescription": "Queue",
+                    "isCorrect": false
+                },
+                {
+                    "quizDescription": "Stack",
+                    "isCorrect": true
+                },
+                {
+                    "quizDescription": "Linked List",
+                    "isCorrect": false
+                },
+                {
+                    "quizDescription": "Binary Tree",
+                    "isCorrect": false
+                }
+            ]
+        },
+        {
+            "quizTitle": "Which algorithm is used to find the shortest path between nodes in a graph?",
+            "quizScore": 4,
+            "quizChoices": [
+                {
+                    "quizDescription": "Binary Search",
+                    "isCorrect": false
+                },
+                {
+                    "quizDescription": "Merge Sort",
+                    "isCorrect": false
+                },
+                {
+                    "quizDescription": "Dijkstra's Algorithm",
+                    "isCorrect": true
+                },
+                {
+                    "quizDescription": "Bubble Sort",
+                    "isCorrect": false
+                }
+            ]
+        },
+        {
+            "quizTitle": "Which of the following is not a programming language?",
+            "quizScore": 3,
+            "quizChoices": [
+                {
+                    "quizDescription": "Python",
+                    "isCorrect": false
+                },
+                {
+                    "quizDescription": "Java",
+                    "isCorrect": false
+                },
+                {
+                    "quizDescription": "HTML",
+                    "isCorrect": true
+                },
+                {
+                    "quizDescription": "C++",
+                    "isCorrect": false
+                }
+            ]
+        },
+        {
+            "quizTitle": "What does 'CPU' stand for?",
+            "quizScore": 3,
+            "quizChoices": [
+                {
+                    "quizDescription": "Central Processing Unit",
+                    "isCorrect": true
+                },
+                {
+                    "quizDescription": "Central Process Unit",
+                    "isCorrect": false
+                },
+                {
+                    "quizDescription": "Computer Personal Unit",
+                    "isCorrect": false
+                },
+                {
+                    "quizDescription": "Central Processor Unit",
+                    "isCorrect": false
+                }
+            ]
+        },
+        {
+            "quizTitle": "What does 'RAM' stand for?",
+            "quizScore": 3,
+            "quizChoices": [
+                {
+                    "quizDescription": "Random Access Memory",
+                    "isCorrect": true
+                },
+                {
+                    "quizDescription": "Read Access Memory",
+                    "isCorrect": false
+                },
+                {
+                    "quizDescription": "Run Access Memory",
+                    "isCorrect": false
+                },
+                {
+                    "quizDescription": "Random Available Memory",
+                    "isCorrect": false
+                }
+            ]
+        },
+        {
+            "quizTitle": "Which of the following is a search algorithm?",
+            "quizScore": 4,
+            "quizChoices": [
+                {
+                    "quizDescription": "Bubble Sort",
+                    "isCorrect": false
+                },
+                {
+                    "quizDescription": "Quick Sort",
+                    "isCorrect": false
+                },
+                {
+                    "quizDescription": "Binary Search",
+                    "isCorrect": true
+                },
+                {
+                    "quizDescription": "Merge Sort",
+                    "isCorrect": false
+                }
+            ]
+        },
+        {
+            "quizTitle": "Which language is primarily used for web development?",
+            "quizScore": 4,
+            "quizChoices": [
+                {
+                    "quizDescription": "C",
+                    "isCorrect": false
+                },
+                {
+                    "quizDescription": "Python",
+                    "isCorrect": false
+                },
+                {
+                    "quizDescription": "Java",
+                    "isCorrect": false
+                },
+                {
+                    "quizDescription": "JavaScript",
+                    "isCorrect": true
+                }
+            ]
+        },
+        {
+            "quizTitle": "Which of the following is a NoSQL database?",
+            "quizScore": 4,
+            "quizChoices": [
+                {
+                    "quizDescription": "MySQL",
+                    "isCorrect": false
+                },
+                {
+                    "quizDescription": "PostgreSQL",
+                    "isCorrect": false
+                },
+                {
+                    "quizDescription": "MongoDB",
+                    "isCorrect": true
+                },
+                {
+                    "quizDescription": "SQLite",
+                    "isCorrect": false
+                }
+            ]
+        },
+        {
+            "quizTitle": "Which of the following is a version control system?",
+            "quizScore": 4,
+            "quizChoices": [
+                {
+                    "quizDescription": "Docker",
+                    "isCorrect": false
+                },
+                {
+                    "quizDescription": "Kubernetes",
+                    "isCorrect": false
+                },
+                {
+                    "quizDescription": "Git",
+                    "isCorrect": true
+                },
+                {
+                    "quizDescription": "Jenkins",
+                    "isCorrect": false
+                }
+            ]
+        }
+    ]
+}

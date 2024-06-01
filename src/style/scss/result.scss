@@ -1,0 +1,26 @@
+.result-container {
+    margin: 0 30%;
+    width: 40%;
+    text-align: center;
+    padding: 1rem 0;
+    h1 {
+        margin: 1rem;
+        font-size: 3rem;
+    }
+    h2 {
+        margin-bottom: 2rem;
+    }
+    .percent-bar {
+        height: 1rem;
+        background-color: gray;
+        border-radius: 1rem;
+    }
+}
+
+.link-button {
+    width: 98%;
+    margin: 0 1%;
+    div {
+        padding: 2rem;
+    }
+}

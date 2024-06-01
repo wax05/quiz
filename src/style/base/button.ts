@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const Button = styled.div<{ $WidthPercent: number; $Height: string }>`
+export const Button = styled.div<{ $WidthPercent?: number; $Height?: string }>`
     width: ${(props) => {
         return props.$WidthPercent ? props.$WidthPercent : 'auto';
     }};
@@ -11,6 +11,7 @@ export const Button = styled.div<{ $WidthPercent: number; $Height: string }>`
         ${(props) => {
             return props.$WidthPercent ? props.$WidthPercent / 2 + '%' : '0';
         }};
+    color: 'black';
     border-radius: 10px;
     background-color: #87ceeb;
     text-align: center;

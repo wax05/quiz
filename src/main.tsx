@@ -8,6 +8,14 @@ import { RootPage } from './routes/root';
 import { QuizMain } from './routes/quiz/quiz';
 import { QuizDetailShow } from './routes/quiz/quizDitail';
 import { QuizSolve } from './routes/quiz/quizSolve';
+import { QuizCreate } from './routes/quiz/create/quizCreate';
+import { QuizResult } from './routes/quiz/result';
+
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { fas } from '@fortawesome/free-solid-svg-icons';
+import { faTwitter, faFontAwesome } from '@fortawesome/free-brands-svg-icons';
+
+library.add(fas, faTwitter, faFontAwesome);
 
 const router = createBrowserRouter([
     {
@@ -21,7 +29,7 @@ const router = createBrowserRouter([
             },
             {
                 path: '/quiz/create',
-                element: <p>HELLO</p>,
+                element: <QuizCreate />,
             },
             {
                 path: '/quiz/:quizId',
@@ -30,6 +38,10 @@ const router = createBrowserRouter([
             {
                 path: '/quiz/:quizId/solve',
                 element: <QuizSolve />,
+            },
+            {
+                path: '/result',
+                element: <QuizResult />,
             },
         ],
     },

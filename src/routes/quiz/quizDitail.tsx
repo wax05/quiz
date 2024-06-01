@@ -1,6 +1,9 @@
 import { Link, useLocation } from 'react-router-dom';
-import { useRecoilValue } from 'recoil';
-import { QuizListInformationState } from '../../state/state';
+import { useRecoilValue, useSetRecoilState } from 'recoil';
+import {
+    NowSolveQuiz as NowSolveQuizState,
+    QuizListInformationState,
+} from '../../state/state';
 import { Title } from '../../style/base/title';
 import { QuizListInformationStateType } from '../../type/quizStateType';
 import { Container, FlexContainer } from '../../style/base/layout';
@@ -11,6 +14,7 @@ export const QuizDetailShow = () => {
     const location = useLocation();
     const quizId = location.pathname.split('/')[2];
     const quizDetails = useRecoilValue(QuizListInformationState);
+    const setNowSolveQuiz = useSetRecoilState(NowSolveQuizState);
     let quizInfo: QuizListInformationStateType = {
         creator: 'test',
         imageURL: 'a',
@@ -55,7 +59,12 @@ export const QuizDetailShow = () => {
                     만든사람 : {quizInfo.creator}
                 </QuizShowDescription>
             </FlexContainer>
-            <Link to={`/quiz/${quizInfo.quizId}/solve`}>
+            <Link
+                to={`/quiz/${quizInfo.quizId}/solve`}
+                onClick={() => {
+                    setNowSolveQuiz(quizInfo);
+                }}
+            >
                 <Button $WidthPercent={40} $Height="3rem">
                     퀴즈 풀기
                 </Button>
