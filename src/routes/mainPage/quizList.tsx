@@ -7,7 +7,7 @@ export const QuizList = () => {
     return (
         <GridContainer>
             {QuizListInformation.map((info) => {
-                return <QuizShow quizInfo={info} key={info.quizId} />;
+                return <QuizShow quizInfo={info} key={info.id} />;
             })}
         </GridContainer>
     );

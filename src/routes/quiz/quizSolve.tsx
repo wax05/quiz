@@ -1,5 +1,4 @@
 import { useRecoilState } from 'recoil';
-import dummyData from '../../data/dummyQuizData.json';
 import { FlexContainer } from '../../style/base/layout';
 import { MarginDiv } from '../../style/base/margin';
 import '../../style/scss/flex.scss';
@@ -16,9 +15,9 @@ export const QuizSolve = () => {
     const [shuffledQuizs, setShuffledQuizs] = useRecoilState(ShuffledQuizState);
 
     useEffect(() => {
-        const tempDummyData = JSON.parse(JSON.stringify(dummyData));
-        tempDummyData.quizs = shuffle(dummyData.quizs.slice(0, 5));
-        setShuffledQuizs(tempDummyData);
+        const tempQuiz = { ...shuffledQuizs };
+        tempQuiz.quizs = shuffle(shuffledQuizs.quizs.slice(0, 5));
+        setShuffledQuizs(tempQuiz);
         // eslint-disable-next-line react-hooks/exhaustive-deps
     }, []); //on mount run this callback function
 
@@ -53,7 +52,7 @@ export const QuizSolve = () => {
 
     return (
         <>
-            <h1>{dummyData.title}</h1>
+            <h1>{shuffledQuizs.title}</h1>
             <br />
             {shuffledQuizs.quizs.map((quiz, idx) => {
                 return (
@@ -77,12 +76,6 @@ export const QuizSolve = () => {
                                     >
                                         <div>
                                             <b>{choice.quizDescription}</b>
-                                            <br />
-                                            {choice.isCorrect ? (
-                                                <p>Correct</p>
-                                            ) : (
-                                                <p>None</p>
-                                            )}
                                             <br />
                                             <input
                                                 type="radio"

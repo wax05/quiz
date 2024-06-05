@@ -1,6 +1,10 @@
 [
     {
+        "id": 1,
         "title": "Extended Knowledge Quiz",
+        "imageURL": "https://img.lovepik.com/free-png/20210922/lovepik-red-question-mark-png-image_401172354_wh1200.png",
+        "description": "상식퀴즈",
+        "creator": "admin",
         "quizs": [
             {
                 "quizTitle": "Which planet is known as the Red Planet?",
@@ -225,7 +229,11 @@
         ]
     },
     {
+        "id": 2,
         "title": "Additional Knowledge Quiz",
+        "imageURL": "https://img.lovepik.com/free-png/20210922/lovepik-red-question-mark-png-image_401172354_wh1200.png",
+        "description": "상식퀴즈",
+        "creator": "admin",
         "quizs": [
             {
                 "quizTitle": "What is the speed of light?",
@@ -443,6 +451,693 @@
                     },
                     {
                         "quizDescription": "Mississippi River",
+                        "isCorrect": false
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "title": "Extended Knowledge Quiz",
+        "imageURL": "https://img.lovepik.com/free-png/20210922/lovepik-red-question-mark-png-image_401172354_wh1200.png",
+        "description": "상식퀴즈",
+        "creator": "admin",
+        "quizs": [
+            {
+                "quizTitle": "Which planet is known as the Red Planet?",
+                "quizScore": 5,
+                "quizChoices": [
+                    {
+                        "quizDescription": "Earth",
+                        "isCorrect": false
+                    },
+                    {
+                        "quizDescription": "Mars",
+                        "isCorrect": true
+                    },
+                    {
+                        "quizDescription": "Jupiter",
+                        "isCorrect": false
+                    },
+                    {
+                        "quizDescription": "Venus",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "quizTitle": "What is the capital of France?",
+                "quizScore": 5,
+                "quizChoices": [
+                    {
+                        "quizDescription": "Berlin",
+                        "isCorrect": false
+                    },
+                    {
+                        "quizDescription": "Paris",
+                        "isCorrect": true
+                    },
+                    {
+                        "quizDescription": "Rome",
+                        "isCorrect": false
+                    },
+                    {
+                        "quizDescription": "London",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "quizTitle": "Who wrote 'To Kill a Mockingbird'?",
+                "quizScore": 4,
+                "quizChoices": [
+                    {
+                        "quizDescription": "Mark Twain",
+                        "isCorrect": false
+                    },
+                    {
+                        "quizDescription": "J.K. Rowling",
+                        "isCorrect": false
+                    },
+                    {
+                        "quizDescription": "Harper Lee",
+                        "isCorrect": true
+                    },
+                    {
+                        "quizDescription": "Jane Austen",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "quizTitle": "What is the hardest natural substance on Earth?",
+                "quizScore": 3,
+                "quizChoices": [
+                    {
+                        "quizDescription": "Gold",
+                        "isCorrect": false
+                    },
+                    {
+                        "quizDescription": "Iron",
+                        "isCorrect": false
+                    },
+                    {
+                        "quizDescription": "Diamond",
+                        "isCorrect": true
+                    },
+                    {
+                        "quizDescription": "Platinum",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "quizTitle": "What is the largest ocean on Earth?",
+                "quizScore": 3,
+                "quizChoices": [
+                    {
+                        "quizDescription": "Atlantic Ocean",
+                        "isCorrect": false
+                    },
+                    {
+                        "quizDescription": "Indian Ocean",
+                        "isCorrect": false
+                    },
+                    {
+                        "quizDescription": "Pacific Ocean",
+                        "isCorrect": true
+                    },
+                    {
+                        "quizDescription": "Arctic Ocean",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "quizTitle": "Which element has the chemical symbol 'O'?",
+                "quizScore": 3,
+                "quizChoices": [
+                    {
+                        "quizDescription": "Oxygen",
+                        "isCorrect": true
+                    },
+                    {
+                        "quizDescription": "Osmium",
+                        "isCorrect": false
+                    },
+                    {
+                        "quizDescription": "Gold",
+                        "isCorrect": false
+                    },
+                    {
+                        "quizDescription": "Silver",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "quizTitle": "Who was the first President of the United States?",
+                "quizScore": 4,
+                "quizChoices": [
+                    {
+                        "quizDescription": "Abraham Lincoln",
+                        "isCorrect": false
+                    },
+                    {
+                        "quizDescription": "Thomas Jefferson",
+                        "isCorrect": false
+                    },
+                    {
+                        "quizDescription": "George Washington",
+                        "isCorrect": true
+                    },
+                    {
+                        "quizDescription": "John Adams",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "quizTitle": "What is the smallest prime number?",
+                "quizScore": 3,
+                "quizChoices": [
+                    {
+                        "quizDescription": "1",
+                        "isCorrect": false
+                    },
+                    {
+                        "quizDescription": "2",
+                        "isCorrect": true
+                    },
+                    {
+                        "quizDescription": "3",
+                        "isCorrect": false
+                    },
+                    {
+                        "quizDescription": "5",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "quizTitle": "What is the chemical formula for water?",
+                "quizScore": 3,
+                "quizChoices": [
+                    {
+                        "quizDescription": "H2O",
+                        "isCorrect": true
+                    },
+                    {
+                        "quizDescription": "CO2",
+                        "isCorrect": false
+                    },
+                    {
+                        "quizDescription": "O2",
+                        "isCorrect": false
+                    },
+                    {
+                        "quizDescription": "HO",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "quizTitle": "What is the largest planet in our solar system?",
+                "quizScore": 3,
+                "quizChoices": [
+                    {
+                        "quizDescription": "Mars",
+                        "isCorrect": false
+                    },
+                    {
+                        "quizDescription": "Jupiter",
+                        "isCorrect": true
+                    },
+                    {
+                        "quizDescription": "Saturn",
+                        "isCorrect": false
+                    },
+                    {
+                        "quizDescription": "Neptune",
+                        "isCorrect": false
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "title": "Additional Knowledge Quiz",
+        "imageURL": "https://img.lovepik.com/free-png/20210922/lovepik-red-question-mark-png-image_401172354_wh1200.png",
+        "description": "상식퀴즈",
+        "creator": "admin",
+        "quizs": [
+            {
+                "quizTitle": "What is the speed of light?",
+                "quizScore": 5,
+                "quizChoices": [
+                    {
+                        "quizDescription": "300,000 km/s",
+                        "isCorrect": true
+                    },
+                    {
+                        "quizDescription": "150,000 km/s",
+                        "isCorrect": false
+                    },
+                    {
+                        "quizDescription": "600,000 km/s",
+                        "isCorrect": false
+                    },
+                    {
+                        "quizDescription": "750,000 km/s",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "quizTitle": "What is the largest bone in the human body?",
+                "quizScore": 5,
+                "quizChoices": [
+                    {
+                        "quizDescription": "Femur",
+                        "isCorrect": true
+                    },
+                    {
+                        "quizDescription": "Tibia",
+                        "isCorrect": false
+                    },
+                    {
+                        "quizDescription": "Humerus",
+                        "isCorrect": false
+                    },
+                    {
+                        "quizDescription": "Radius",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "quizTitle": "Who developed the theory of relativity?",
+                "quizScore": 4,
+                "quizChoices": [
+                    {
+                        "quizDescription": "Isaac Newton",
+                        "isCorrect": false
+                    },
+                    {
+                        "quizDescription": "Albert Einstein",
+                        "isCorrect": true
+                    },
+                    {
+                        "quizDescription": "Galileo Galilei",
+                        "isCorrect": false
+                    },
+                    {
+                        "quizDescription": "Marie Curie",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "quizTitle": "What is the smallest country in the world?",
+                "quizScore": 3,
+                "quizChoices": [
+                    {
+                        "quizDescription": "Vatican City",
+                        "isCorrect": true
+                    },
+                    {
+                        "quizDescription": "Monaco",
+                        "isCorrect": false
+                    },
+                    {
+                        "quizDescription": "Liechtenstein",
+                        "isCorrect": false
+                    },
+                    {
+                        "quizDescription": "Malta",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "quizTitle": "What is the capital of Japan?",
+                "quizScore": 3,
+                "quizChoices": [
+                    {
+                        "quizDescription": "Tokyo",
+                        "isCorrect": true
+                    },
+                    {
+                        "quizDescription": "Osaka",
+                        "isCorrect": false
+                    },
+                    {
+                        "quizDescription": "Nagoya",
+                        "isCorrect": false
+                    },
+                    {
+                        "quizDescription": "Hiroshima",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "quizTitle": "What is the freezing point of water?",
+                "quizScore": 3,
+                "quizChoices": [
+                    {
+                        "quizDescription": "0°C",
+                        "isCorrect": true
+                    },
+                    {
+                        "quizDescription": "32°C",
+                        "isCorrect": false
+                    },
+                    {
+                        "quizDescription": "100°C",
+                        "isCorrect": false
+                    },
+                    {
+                        "quizDescription": "-32°C",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "quizTitle": "Who painted the Mona Lisa?",
+                "quizScore": 4,
+                "quizChoices": [
+                    {
+                        "quizDescription": "Vincent van Gogh",
+                        "isCorrect": false
+                    },
+                    {
+                        "quizDescription": "Leonardo da Vinci",
+                        "isCorrect": true
+                    },
+                    {
+                        "quizDescription": "Pablo Picasso",
+                        "isCorrect": false
+                    },
+                    {
+                        "quizDescription": "Claude Monet",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "quizTitle": "What is the powerhouse of the cell?",
+                "quizScore": 3,
+                "quizChoices": [
+                    {
+                        "quizDescription": "Nucleus",
+                        "isCorrect": false
+                    },
+                    {
+                        "quizDescription": "Ribosome",
+                        "isCorrect": false
+                    },
+                    {
+                        "quizDescription": "Mitochondria",
+                        "isCorrect": true
+                    },
+                    {
+                        "quizDescription": "Chloroplast",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "quizTitle": "What is the capital of Australia?",
+                "quizScore": 3,
+                "quizChoices": [
+                    {
+                        "quizDescription": "Sydney",
+                        "isCorrect": false
+                    },
+                    {
+                        "quizDescription": "Melbourne",
+                        "isCorrect": false
+                    },
+                    {
+                        "quizDescription": "Canberra",
+                        "isCorrect": true
+                    },
+                    {
+                        "quizDescription": "Brisbane",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "quizTitle": "Which is the longest river in the world?",
+                "quizScore": 4,
+                "quizChoices": [
+                    {
+                        "quizDescription": "Amazon River",
+                        "isCorrect": true
+                    },
+                    {
+                        "quizDescription": "Nile River",
+                        "isCorrect": false
+                    },
+                    {
+                        "quizDescription": "Yangtze River",
+                        "isCorrect": false
+                    },
+                    {
+                        "quizDescription": "Mississippi River",
+                        "isCorrect": false
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "imageURL": "https://img.lovepik.com/free-png/20210922/lovepik-red-question-mark-png-image_401172354_wh1200.png",
+        "description": "컴퓨터 사이언스 퀴즈",
+        "creator": "admin",
+        "title": "Computer Science Quiz",
+        "quizs": [
+            {
+                "quizTitle": "What does 'HTML' stand for?",
+                "quizScore": 5,
+                "quizChoices": [
+                    {
+                        "quizDescription": "HyperText Markup Language",
+                        "isCorrect": true
+                    },
+                    {
+                        "quizDescription": "HyperText Markdown Language",
+                        "isCorrect": false
+                    },
+                    {
+                        "quizDescription": "Hyperlink and Text Markup Language",
+                        "isCorrect": false
+                    },
+                    {
+                        "quizDescription": "Home Tool Markup Language",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "quizTitle": "Which data structure uses LIFO (Last In, First Out)?",
+                "quizScore": 5,
+                "quizChoices": [
+                    {
+                        "quizDescription": "Queue",
+                        "isCorrect": false
+                    },
+                    {
+                        "quizDescription": "Stack",
+                        "isCorrect": true
+                    },
+                    {
+                        "quizDescription": "Linked List",
+                        "isCorrect": false
+                    },
+                    {
+                        "quizDescription": "Binary Tree",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "quizTitle": "Which algorithm is used to find the shortest path between nodes in a graph?",
+                "quizScore": 4,
+                "quizChoices": [
+                    {
+                        "quizDescription": "Binary Search",
+                        "isCorrect": false
+                    },
+                    {
+                        "quizDescription": "Merge Sort",
+                        "isCorrect": false
+                    },
+                    {
+                        "quizDescription": "Dijkstra's Algorithm",
+                        "isCorrect": true
+                    },
+                    {
+                        "quizDescription": "Bubble Sort",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "quizTitle": "Which of the following is not a programming language?",
+                "quizScore": 3,
+                "quizChoices": [
+                    {
+                        "quizDescription": "Python",
+                        "isCorrect": false
+                    },
+                    {
+                        "quizDescription": "Java",
+                        "isCorrect": false
+                    },
+                    {
+                        "quizDescription": "HTML",
+                        "isCorrect": true
+                    },
+                    {
+                        "quizDescription": "C++",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "quizTitle": "What does 'CPU' stand for?",
+                "quizScore": 3,
+                "quizChoices": [
+                    {
+                        "quizDescription": "Central Processing Unit",
+                        "isCorrect": true
+                    },
+                    {
+                        "quizDescription": "Central Process Unit",
+                        "isCorrect": false
+                    },
+                    {
+                        "quizDescription": "Computer Personal Unit",
+                        "isCorrect": false
+                    },
+                    {
+                        "quizDescription": "Central Processor Unit",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "quizTitle": "What does 'RAM' stand for?",
+                "quizScore": 3,
+                "quizChoices": [
+                    {
+                        "quizDescription": "Random Access Memory",
+                        "isCorrect": true
+                    },
+                    {
+                        "quizDescription": "Read Access Memory",
+                        "isCorrect": false
+                    },
+                    {
+                        "quizDescription": "Run Access Memory",
+                        "isCorrect": false
+                    },
+                    {
+                        "quizDescription": "Random Available Memory",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "quizTitle": "Which of the following is a search algorithm?",
+                "quizScore": 4,
+                "quizChoices": [
+                    {
+                        "quizDescription": "Bubble Sort",
+                        "isCorrect": false
+                    },
+                    {
+                        "quizDescription": "Quick Sort",
+                        "isCorrect": false
+                    },
+                    {
+                        "quizDescription": "Binary Search",
+                        "isCorrect": true
+                    },
+                    {
+                        "quizDescription": "Merge Sort",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "quizTitle": "Which language is primarily used for web development?",
+                "quizScore": 4,
+                "quizChoices": [
+                    {
+                        "quizDescription": "C",
+                        "isCorrect": false
+                    },
+                    {
+                        "quizDescription": "Python",
+                        "isCorrect": false
+                    },
+                    {
+                        "quizDescription": "Java",
+                        "isCorrect": false
+                    },
+                    {
+                        "quizDescription": "JavaScript",
+                        "isCorrect": true
+                    }
+                ]
+            },
+            {
+                "quizTitle": "Which of the following is a NoSQL database?",
+                "quizScore": 4,
+                "quizChoices": [
+                    {
+                        "quizDescription": "MySQL",
+                        "isCorrect": false
+                    },
+                    {
+                        "quizDescription": "PostgreSQL",
+                        "isCorrect": false
+                    },
+                    {
+                        "quizDescription": "MongoDB",
+                        "isCorrect": true
+                    },
+                    {
+                        "quizDescription": "SQLite",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "quizTitle": "Which of the following is a version control system?",
+                "quizScore": 4,
+                "quizChoices": [
+                    {
+                        "quizDescription": "Docker",
+                        "isCorrect": false
+                    },
+                    {
+                        "quizDescription": "Kubernetes",
+                        "isCorrect": false
+                    },
+                    {
+                        "quizDescription": "Git",
+                        "isCorrect": true
+                    },
+                    {
+                        "quizDescription": "Jenkins",
                         "isCorrect": false
                     }
                 ]

@@ -17,3 +17,12 @@ export type ShuffledQuizDataStateType = {
     title: string;
     quizs: ShuffledQuizStateType[];
 };
+
+export type QuizData = {
+    id: number;
+    imageURL: string;
+    title: string;
+    description: string;
+    creator: string;
+    quizs: ShuffledQuizStateType[];
+};

@@ -1,4 +1,3 @@
-import { useRecoilState } from 'recoil';
 import { FlexContainer } from '../../../style/base/layout';
 import { MarginDiv } from '../../../style/base/margin';
 import { Title } from '../../../style/base/title';
@@ -6,11 +5,8 @@ import {
     QuizCreateDescription,
     QuizCreateInput,
 } from '../../../style/quiz/quizCreate';
-import { CreatedQuizs as CreatedQuizsState } from '../../../state/state';
 
 export const QuizCreate = () => {
-    const [createdQuiz, setCreatedQuiz] = useRecoilState(CreatedQuizsState);
-
     const onChangeSet = (event: React.FormEvent<HTMLInputElement>) => {
         console.log(event.currentTarget.name);
     };
@@ -20,9 +16,7 @@ export const QuizCreate = () => {
             <MarginDiv $Bottom="1rem">
                 <h1>퀴즈 만들기</h1>
                 <br />
-                <FlexContainer
-                    style={{ justifyItems: 'center', marginBottom: '1rem' }}
-                >
+                <FlexContainer style={{ marginBottom: '1rem' }}>
                     <QuizCreateDescription>퀴즈 이름</QuizCreateDescription>
                     <QuizCreateInput
                         type="text"
@@ -32,7 +26,7 @@ export const QuizCreate = () => {
                         onChange={onChangeSet}
                     ></QuizCreateInput>
                 </FlexContainer>
-                <FlexContainer style={{ justifyItems: 'center' }}>
+                <FlexContainer>
                     <QuizCreateDescription>퀴즈 설명</QuizCreateDescription>
                     <QuizCreateInput
                         type="text"

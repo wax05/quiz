@@ -1,15 +1,25 @@
 import { Link } from 'react-router-dom';
-import { QuizListInformationStateType } from '../../type/quizStateType';
 import { QuizShowDescription } from '../../style/quiz/quizShow';
+import { QuizData } from '../../type/solveQuizStateType';
+import { useSetRecoilState } from 'recoil';
+import { ShuffledQuizState } from '../../state/state';
 
 type QuizListInformationStateProps = {
-    quizInfo: QuizListInformationStateType;
+    quizInfo: QuizData;
 };
 
 export const QuizShow = ({ quizInfo }: QuizListInformationStateProps) => {
-    const { quizId, imageURL, title, description, creator } = quizInfo;
+    const setQuiz = useSetRecoilState(ShuffledQuizState);
+    const { id, imageURL, title, description, creator } = quizInfo;
+    const onClickQuizSetHandler = () => {
+        setQuiz(quizInfo);
+    };
     return (
-        <Link to={'/quiz/' + String(quizId)} style={{ color: 'black' }}>
+        <Link
+            to={'/quiz/' + String(id) + '/solve'}
+            style={{ color: 'black' }}
+            onClick={onClickQuizSetHandler}
+        >
             <div>
                 <img
                     alt={title + ' 퀴즈 이미지'}
