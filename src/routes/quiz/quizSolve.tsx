@@ -38,7 +38,6 @@ export const QuizSolve = () => {
                 noInputQuizs.push(idx + 1);
             }
         }
-        console.log(noInputQuizs.length);
         if (noInputQuizs.length > 0) {
             window.alert(
                 `${noInputQuizs.map((idx) => {

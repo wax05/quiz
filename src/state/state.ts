@@ -1,7 +1,6 @@
 import { atom } from 'recoil';
 import { navBarStateType } from '../type/navBarStateType';
 import { QuizListInformationStateType } from '../type/quizStateType';
-import dummyData from '../data/dummyQuizData.json';
 import AllData from '../data/quizs.json';
 import {
     CreateQuizStateType,
@@ -65,7 +64,7 @@ export const AwnserState = atom<AwnserStateType[]>({
 
 export const ShuffledQuizState = atom<ShuffledQuizDataStateType>({
     key: 'ShuffledQuizState',
-    default: dummyData,
+    default: undefined,
 });
 
 export const userScoreState = atom<number>({ key: 'userScore', default: 0 });

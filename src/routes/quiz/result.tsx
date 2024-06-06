@@ -6,14 +6,24 @@ import '../../style/scss/result.scss';
 import '../../style/scss/flex.scss';
 import { Link, useNavigate } from 'react-router-dom';
 import { Button } from '../../style/base/button';
+import { ShuffledQuizStateType } from '../../type/solveQuizStateType';
 
 export const QuizResult = () => {
+    type WrongQuiz = ShuffledQuizStateType & {
+        id: number;
+    };
+
     const navigate = useNavigate();
     const awnsers = useRecoilValue(AwnserState);
     const shuffledQuizs = useRecoilValue(ShuffledQuizState);
     let maxScore = 0;
     let score = 0;
     let count = 0;
+    const wrongQuizs: WrongQuiz[] = [];
+
+    if (shuffledQuizs == undefined) {
+        throw new Error('QuizNotSolved');
+    }
 
     shuffledQuizs.quizs.slice(0, 5).map((quiz) => {
         maxScore += quiz.quizScore;
@@ -25,6 +35,12 @@ export const QuizResult = () => {
                 if (awnsers[quizIndex].awnser == idx) {
                     score += quiz.quizScore;
                     count++;
+                } else {
+                    const tempWrongQuiz: WrongQuiz = {
+                        ...quiz,
+                        id: quizIndex + 1,
+                    };
+                    wrongQuizs.push(tempWrongQuiz);
                 }
             }
         });
@@ -77,6 +93,23 @@ export const QuizResult = () => {
                             className="percent-bar"
                         ></div>
                     </div>
+                </MarginDiv>
+                <MarginDiv $Bottom="2rem">
+                    {wrongQuizs.length != 0 ? (
+                        <>
+                            <b>틀린 퀴즈</b>
+                            {wrongQuizs.map((wrongQuiz) => {
+                                return (
+                                    <div key={wrongQuiz.id}>
+                                        {wrongQuiz.id}번퀴즈 :{' '}
+                                        {wrongQuiz.quizTitle}
+                                    </div>
+                                );
+                            })}
+                        </>
+                    ) : (
+                        <></>
+                    )}
                 </MarginDiv>
                 <MarginDiv $Bottom="2rem">
                     <Button style={{ padding: '2rem' }} onClick={previousPage}>
