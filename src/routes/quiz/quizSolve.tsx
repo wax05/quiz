@@ -6,7 +6,7 @@ import '../../style/scss/quizSolve.scss';
 import { AwnserState, ShuffledQuizState } from '../../state/state';
 import { AwnserStateType } from '../../type/solveQuizStateType';
 import { useNavigate } from 'react-router-dom';
-import { shuffle } from '../../hook/shuffle';
+import { shuffle } from '../../func/shuffle';
 import { useEffect } from 'react';
 
 export const QuizSolve = () => {

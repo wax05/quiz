@@ -17,7 +17,6 @@ export const NavBarState = atom<navBarStateType[]>({
     default: [
         { view: '메인페이지', to: '/' },
         { view: '퀴즈 탐색', to: 'quiz/' },
-        { view: '퀴즈 만들기', to: 'quiz/create' },
     ],
 });
 
