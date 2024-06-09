@@ -6,7 +6,6 @@ import { ErrorPage } from './routes/error';
 import { GlobalFontStyle } from './style/global';
 import { RootPage } from './routes/root';
 import { QuizMain } from './routes/quiz/quiz';
-import { QuizDetailShow } from './routes/quiz/quizDitail';
 import { QuizSolve } from './routes/quiz/quizSolve';
 import { QuizCreate } from './routes/quiz/create/quizCreate';
 import { QuizResult } from './routes/quiz/result';
@@ -30,10 +29,6 @@ const router = createBrowserRouter([
             {
                 path: '/quiz/create',
                 element: <QuizCreate />,
-            },
-            {
-                path: '/quiz/:quizId',
-                element: <QuizDetailShow />,
             },
             {
                 path: '/quiz/:quizId/solve',

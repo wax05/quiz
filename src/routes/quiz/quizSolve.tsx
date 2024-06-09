@@ -4,7 +4,6 @@ import { MarginDiv } from '../../style/base/margin';
 import '../../style/scss/flex.scss';
 import '../../style/scss/quizSolve.scss';
 import { AwnserState, ShuffledQuizState } from '../../state/state';
-import { AwnserStateType } from '../../type/solveQuizStateType';
 import { useNavigate } from 'react-router-dom';
 import { shuffle } from '../../func/shuffle';
 import { useEffect } from 'react';
@@ -24,20 +23,18 @@ export const QuizSolve = () => {
     const onChangeAwnser = (event: React.ChangeEvent<HTMLInputElement>) => {
         const awnserIndex = event.currentTarget.dataset.quizchoiceawnser;
         const quizIndex = event.currentTarget.dataset.quizindex;
-        const tempAwnser: AwnserStateType[] = JSON.parse(
-            JSON.stringify(awnsers),
-        );
+        const tempAwnser = [...awnsers];
         tempAwnser[Number(quizIndex)] = { awnser: Number(awnserIndex) };
         setAwnser(tempAwnser);
     };
 
     const submitAwnser = (): void => {
-        const noInputQuizs = [];
-        for (const [idx, awnser] of awnsers.entries()) {
+        const noInputQuizs: number[] = [];
+        awnsers.map((awnser, idx) => {
             if (awnser.awnser == -1) {
                 noInputQuizs.push(idx + 1);
             }
-        }
+        });
         if (noInputQuizs.length > 0) {
             window.alert(
                 `${noInputQuizs.map((idx) => {

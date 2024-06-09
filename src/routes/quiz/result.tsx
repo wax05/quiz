@@ -1,4 +1,4 @@
-import { useRecoilValue } from 'recoil';
+import { useRecoilState, useRecoilValue } from 'recoil';
 import { AwnserState, ShuffledQuizState } from '../../state/state';
 import { MarginDiv } from '../../style/base/margin';
 import { FlexContainer } from '../../style/base/layout';
@@ -14,7 +14,7 @@ export const QuizResult = () => {
     };
 
     const navigate = useNavigate();
-    const awnsers = useRecoilValue(AwnserState);
+    const [awnsers, setAwnsers] = useRecoilState(AwnserState);
     const shuffledQuizs = useRecoilValue(ShuffledQuizState);
     let maxScore = 0;
     let score = 0;
@@ -47,6 +47,23 @@ export const QuizResult = () => {
     });
 
     const previousPage = () => {
+        setAwnsers([
+            {
+                awnser: -1,
+            },
+            {
+                awnser: -1,
+            },
+            {
+                awnser: -1,
+            },
+            {
+                awnser: -1,
+            },
+            {
+                awnser: -1,
+            },
+        ]);
         navigate(-1);
     };
 
