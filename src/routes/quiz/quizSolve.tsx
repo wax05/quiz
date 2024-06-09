@@ -14,8 +14,8 @@ export const QuizSolve = () => {
     const [shuffledQuizs, setShuffledQuizs] = useRecoilState(ShuffledQuizState);
 
     useEffect(() => {
-        const tempQuiz = { ...shuffledQuizs };
-        tempQuiz.quizs = shuffle(shuffledQuizs.quizs).slice(0, 5);
+        const tempQuiz = JSON.parse(JSON.stringify(shuffledQuizs));
+        tempQuiz.quizs = shuffle(tempQuiz.quizs).slice(0, 5);
         setShuffledQuizs(tempQuiz);
         // eslint-disable-next-line react-hooks/exhaustive-deps
     }, []); //on mount run this callback function
